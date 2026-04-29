@@ -9,6 +9,12 @@ An arcade-style game console built around the ESP32 microcontroller featuring a 
 * **Feedback:** Active buzzer for game audio + 4 status LEDs
 * **Power:** Custom 2-layer PCB designed in KiCad
 
+### Schematic
+![Circuit Schematic](https://github.com/AnmolS-EE/Custom-Game-Console/blob/main/media/Schematic.png)
+
+### 3D PCB View
+![3D PCB View](https://github.com/AnmolS-EE/Custom-Game-Console/blob/main/media/GameConsole_ESP32.png)
+
 ## Project Evolution: Breadboard to PCB
 The project began as a fully functional breadboard prototype used to validate:
 
@@ -18,16 +24,11 @@ The project began as a fully functional breadboard prototype used to validate:
 * game state transitions
 * buzzer and LED feedback logic
 
+### Breadboard Prototype
+![Breadboard Prototype](https://github.com/AnmolS-EE/Custom-Game-Console/blob/main/media/breadboard.jpg)
+
 After successful testing, the system was transferred to a custom PCB designed in KiCad, focusing on clean signal routing, reliable power delivery, and compact system integration. 
 
 ## Firmware & Logic
 Firmware was developed using C++ (Arduino framework) on the ESP32 platform.
-The software architecture supports multiple programmable games with modular input handling, display rendering, state management, and sound feedback. 
-
-## Upcoming Improvements (V2)
-* Improved PCB routing and component placement
-* Better power trace optimization
-* Cleaner schematic organization
-* Enhanced manufacturability and debugging access
-* More compact board layout
-* Additional game support and firmware optimization
+The software architecture supports multiple programmable games with modular input handling, display rendering, state management, and sound feedback.
